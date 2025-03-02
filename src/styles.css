@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.todo__wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.todo__title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+
+
+.todo__form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo__input {
+    flex: 1;
+    padding: 10px;
+}
+
+.todo__btn {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.todo__btn:hover {
+    background-color: #218838;
+}
+
+.todo__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo__list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.todo__list li span {
+    display: block;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.todo__btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.todo__btn-danger:hover {
+    background-color: #c82333;
+}
+
+.myModal {
+    display: none;
+}
+
+.todo__alert {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffc107;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+}

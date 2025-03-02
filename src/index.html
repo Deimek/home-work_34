@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-list</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+    <div class="todo container">
+        <div class="todo__wrapper">
+            <h1 class="todo__title">ToDo List</h1>
+            <form action="#" class="todo__form" name="todo">
+                <input type="text" class="todo__input" name="text" placeholder="add task">
+                <button type="button" class="todo__btn">Add</button>
+            </form>
+            <ul class="todo__list">
+            </ul>
+            <div class="todo__alert" id="alertMessage">
+                Please enter a task!
+            </div>
+        </div>
+        <div class="myModal">
+            <p>Modal body text goes here.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- <script src="./dist/build.js"></script> -->
+</body>
+
+</html>
